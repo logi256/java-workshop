@@ -1,2 +1,2 @@
 # java-workshop
-i learing java class 
+i learning java class 
