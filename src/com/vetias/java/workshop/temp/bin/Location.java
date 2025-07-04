@@ -69,5 +69,17 @@ public class Location {
     }
 }
     
-    
+    @Override
+    public String toString() {
+        return "Location{" +
+                "name='" + name + '\'' +
+                ", alatitude=" + alatitude +
+                ", alongitude=" + alongitude +
+                ", description='" + description + '\'' +
+                ", country='" + country + '\'' +
+                ", city='" + city + '\'' +
+                ", address='" + address + '\'' +
+                ", Postalcode='" + Postalcode + '\'' +
+                '}';
+    }
 
