@@ -1,7 +1,4 @@
-public class Sensor {
+public interface Sensor {
 
-    private double Sen id;
-    private String Name;
-    private double tempdata;
-
+    public Floor getReading();
 }

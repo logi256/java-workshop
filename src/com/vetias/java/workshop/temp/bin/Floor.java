@@ -4,14 +4,15 @@ public class Floor {
      private String number;
 
 
-     public void setName(String aname){
-         name =aName;
+     public void setName(String aName){
+         name = aName;
+     }
 
-        public String grtName(){
+        public String getName(){
             return name;
         }
+        
+        public String getNumber() {
+            return number;
+        }
     }
-
-     }
- 
-    
