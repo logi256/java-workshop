@@ -8,7 +8,5 @@ public class Spilt {
         System.out.println("Total words: " + words.length);
         String[] chars = sentence.split("");
         System.out.println("Total chars: " + chars.length);
-        }
-    
-
     }
+}
