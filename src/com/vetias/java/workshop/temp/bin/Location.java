@@ -67,8 +67,6 @@ public class Location {
     public void setPostalcode(String postalcode) {
         Postalcode = postalcode;
     }
-}
-    
     @Override
     public String toString() {
         return "Location{" +
@@ -82,4 +80,5 @@ public class Location {
                 ", Postalcode='" + Postalcode + '\'' +
                 '}';
     }
+}
 
