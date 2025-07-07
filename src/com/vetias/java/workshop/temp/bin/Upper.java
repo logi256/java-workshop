@@ -9,6 +9,12 @@ public class Upper {
         String[] words = fullName.split(" ");
         for (String word : words) {
             System.out.println(word.toUpperCase()); 
+
+
+
+             
+
+         
         }
-}
+    }
 }

@@ -2,7 +2,8 @@ public class TempdataApplication {
 
     public static void main(String[] args) {
         
-        Location  
+        // TODO: Declare and initialize a Location variable, for example:
+        // Location location = new Location();
     }
 
 }
