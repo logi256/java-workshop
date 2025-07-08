@@ -6,3 +6,9 @@ tools
 control statement
 jar
 jdk
+stack over flow error
+out of memory
+
+check execption are also called compiler expection
+
+uncheck execption are also called runtime execption
