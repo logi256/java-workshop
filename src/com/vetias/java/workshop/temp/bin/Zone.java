@@ -1,3 +1,5 @@
+package com.vetias.java.workshop.temp.bin;
+
 public class Zone {
     private String name;
     private int zoneId;

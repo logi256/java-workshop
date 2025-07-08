@@ -1,3 +1,5 @@
+package com.vetias.java.workshop.temp.bin;
+
 public class Spilt {
 
     public static void main(String[] ar) {

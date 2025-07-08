@@ -1,6 +1,6 @@
+package com.vetias.java.workshop.temp.bin;
 
-
-    import java.util.Arrays;
+import java.util.Arrays;
 
     public class Employee {
         public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.vetias.java.workshop.temp.bin;
+
 import java.util.Scanner;
 
 public class Namegenrater {

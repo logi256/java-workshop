@@ -1,3 +1,5 @@
+package com.vetias.java.workshop.temp.bin;
+
 public class Upper {
     public static void main(String[] args) {
 
