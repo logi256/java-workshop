@@ -1,6 +1,7 @@
 package com.vetias.java.workshop.temp.bin;
 
-public class Spilt {
+
+public class Split {
 
     public static void main(String[] ar) {
         String sentence = "this program shows how can we split a "+"string into multiple strings. we need to find sentences in a string and split them into multiple strings,word and letter counts are also important in this program";
