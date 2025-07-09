@@ -1,15 +1,15 @@
-package com.vetias.java.workshop.temp.bin;
+ 
 
 public class Zone {
     private String name;
     private int zoneId;
-    private String Type;
+    private String type;
     private double area;
 
     public Zone(String name, int zoneId, String type, double area) {
         this.name = name;
         this.zoneId = zoneId;
-        Type = type;
+        this.type = type;
         this.area = area;
     }
     public String getName() {
@@ -25,10 +25,10 @@ public class Zone {
         this.zoneId = zoneId;
     }
     public String getType() {
-        return Type;
+        return type;
     }
     public void setType(String type) {
-        Type = type;
+        this.type = type;
     }
     public double getArea() {
         return area;

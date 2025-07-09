@@ -24,5 +24,8 @@ java.io
 
 configuration management
 
-maven tool
+maven tool it ia build tool with help to download java or compiler the java and package testes java application to app jar
+
+steps:
+
 

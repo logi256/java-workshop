@@ -1,4 +1,4 @@
-package com.vetias.java.workshop.temp.bin;
+package com.java.workshop.temp.bin;
 
 public class AcedemicBuilding {
     private boolean islibiraryavailable;
