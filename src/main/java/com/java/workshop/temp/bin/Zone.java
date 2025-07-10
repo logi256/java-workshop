@@ -1,4 +1,4 @@
- 
+package main.java.com.java.workshop.temp.bin;
 
 public class Zone {
     private String name;

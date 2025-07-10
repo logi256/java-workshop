@@ -1,4 +1,4 @@
-package com.vetias.java.workshop.temp.bin;
+package main.java.com.java.workshop.temp.bin;
 
 
 public class Split {
