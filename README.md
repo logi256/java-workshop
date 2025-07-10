@@ -31,4 +31,5 @@ collection frame work
 map is the collection of key value pair
 set is a order of element
 arrary is dioman element
-ja
+single key value called entery
+key is a set and value is a list
