@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: test.java.com.vetias.java.workshop.basics.string.WordCountTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.087 s <<< FAILURE! -- in test.java.com.vetias.java.workshop.basics.string.WordCountTest
-test.java.com.vetias.java.workshop.basics.string.WordCountTest.testEmptyString -- Time elapsed: 0.034 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.073 s <<< FAILURE! -- in test.java.com.vetias.java.workshop.basics.string.WordCountTest
+test.java.com.vetias.java.workshop.basics.string.WordCountTest.testEmptyString -- Time elapsed: 0.041 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <5>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
@@ -15,7 +15,7 @@ org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 
-test.java.com.vetias.java.workshop.basics.string.WordCountTest.testWordCount -- Time elapsed: 0 s <<< FAILURE!
+test.java.com.vetias.java.workshop.basics.string.WordCountTest.testWordCount -- Time elapsed: 0.005 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <4> but was: <15>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)

@@ -14,12 +14,17 @@ public class Marklist {
         marks.add(74);
         marks.add(58);
 
-        
-        Collections.sort(marks);
+    
+
+  Collections.sort(marks);
         System.out.println("Ascending order: " + marks);
 
-        
+
+        System.out.println("Minimum mark: " + Collections.min(marks));
+        System.out.println("Maximum mark: " + Collections.max(marks));
+
         Collections.sort(marks, Collections.reverseOrder());
         System.out.println("Descending order: " + marks);
-    }
+
+}
 }

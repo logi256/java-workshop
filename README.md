@@ -33,3 +33,6 @@ set is a order of element
 arrary is dioman element
 single key value called entery
 key is a set and value is a list
+
+location have a site a building foor treset zoon floor have set of zone
+
