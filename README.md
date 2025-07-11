@@ -52,4 +52,14 @@ findfirst
 allmatch
 anymatch
 
+optimal class
+relations data base
+sql
+my sql
+oracle
+data base  schema
+table
+column
+row
+group by
 
