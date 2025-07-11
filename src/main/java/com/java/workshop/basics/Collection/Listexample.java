@@ -9,10 +9,10 @@ public class Listexample {
     public static void main(String[] args) {
       List<String> names = new ArrayList<String>();
         names.add("John");
-        names.add("Joe");
+        names.add("sw");
         names.add("loki");
         names.add("zameer");
-        names.add("Bob");
+        names.add("sobi");
         names.add("shiva");
         names.add("shivam");
 
@@ -24,5 +24,13 @@ public class Listexample {
         }
         names.sort(Comparator.naturalOrder());
         System.out.println(names);
+
+
+     System.out.println("Names starting with 's':");
+        for (String name : names) {
+            if (name.startsWith("s")) {
+                System.out.println(name);
+            }
+        }
 }
 }

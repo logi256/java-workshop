@@ -36,3 +36,20 @@ key is a set and value is a list
 
 location have a site a building foor treset zoon floor have set of zone
 
+map{}
+filter{}
+sorted{}
+flatmap{}
+distirect{}
+peak{}
+
+terminal operator
+collect
+foreach
+reduce
+count
+findfirst
+allmatch
+anymatch
+
+

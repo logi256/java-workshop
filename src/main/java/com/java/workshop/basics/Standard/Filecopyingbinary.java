@@ -1,4 +1,4 @@
-package com.vetias.java.workshop.basics.Standard;
+package main.java.com.java.workshop.basics.Standard;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
