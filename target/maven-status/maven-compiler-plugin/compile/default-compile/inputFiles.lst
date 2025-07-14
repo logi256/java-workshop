@@ -11,8 +11,12 @@ e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\basics\string\w
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\basics\total.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\lambda\squareimp.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\lambda\Squre.java
+e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\lambda\StreamExample.java
+e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\steam\Arraystream.java
+e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\steam\EvenOddSplitExample.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\steam\StreamUpperCaseNames.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\steam\string.java
+e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\steam\StudentListMerge.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\AcedemicBuilding.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Agecalculator.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Building.java
@@ -22,6 +26,7 @@ e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Floor.
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Hostel.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Location.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Namegenrater.java
+e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\organization.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Registrationtimeleft.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Sensor.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Split.java
@@ -31,3 +36,6 @@ e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Tempda
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\TemperatureSensor.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Upper.java
 e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\bin\Zone.java
+e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\DAO\JdbcDataSource.java
+e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\DAO\module-info.java
+e:\java-workshop\java-workshop-2\src\main\java\com\java\workshop\temp\DAO\organizationdao.java

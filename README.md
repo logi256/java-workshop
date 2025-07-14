@@ -66,3 +66,8 @@ group by
 value object or data transfer  object
 configuration object
 data transfer object
+data mapilatison language
+data define language
+
+
+
