@@ -1,33 +1,69 @@
 package main.java.com.java.workshop.temp.DAO;
 
-import java.sql.Statement;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+
+import main.java.com.java.workshop.temp.bin.Orgranaization;
 
 public class organizationdao {
-    public void createTable (){
-        try {
-            Class.forName("org.h2.Driver");
-        } catch (ClassNotFoundException e) {
-             e.printStackTrace();
-        }
-      
-        try(Connection connection = DriverManager.getConnection("jdbc:h2:mem:tempdao","sa",null);
-            Statement statement = connection.createStatement()) {
+    public void createTable(Connection connection) {
+        try (Statement statement = connection.createStatement()) {
             statement.execute("""
-                    Create Table Organization(
-                    id int AUTO_INCREMENT PRIMARY KEY,
-                    NAME VARCHAR(100),
-                    WEBSITE VARCHAR(100),
-                    EMAIL VARCHAR(100),
-                    CONTACT_NUMBER VARCHAR(100),
-                    REGISTRATION_NO INT,
-                    ADDRESS VARCHAR(255))
+                    CREATE TABLE Organization (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        name VARCHAR(100),
+                        website VARCHAR(100),
+                        email VARCHAR(100),
+                        CONTACT_NUMBER VARCHAR(100),
+                        REGISTRATION_NO INT,
+                        ADDRESS VARCHAR(100)
+                    )
                     """);
         } catch (SQLException sqlException) {
-            System.out.println("Error creating table:"+ sqlException );
+            System.out.println("Error creating table: " + sqlException);
         }
+    }
 
+    public int save(Connection connection, Orgranaization vet) {
+        try (PreparedStatement preparedStatement = connection.prepareStatement("""
+                insert into organization (name, website, email, contact_number,
+                registration_no, address) values (?, ?, ?, ?, ?, ?)
+                """)) {
+
+            preparedStatement.setString(1, vet.name());
+            preparedStatement.setString(2, vet.website());
+            preparedStatement.setString(3, vet.email());
+            preparedStatement.setInt(4, vet.contactNumber());
+            preparedStatement.setInt(5, vet.registrationNumber());
+            preparedStatement.setString(6, vet.address());
+            return preparedStatement.executeUpdate();
+        } catch (SQLException sqlException) {
+            System.out.println("Error insertting into table:" + sqlException);
+        }
+        return 0;
+    }
+
+    public Orgranaization findByName(Connection connection, String name) {
+        Orgranaization organization = null;
+        try (PreparedStatement preparedStatement = connection.prepareStatement("""
+                select * from organization where name = ?
+                """)) {
+            preparedStatement.setString(1, name);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet != null && resultSet.next()) {
+                organization = new Orgranaization(resultSet.getString("name"), name, 0, name, name, 0, null);
+                resultSet.getString("address");
+                resultSet.getString("contact_number");
+                resultSet.getString("email");
+                resultSet.getString("website");
+            }
+        } catch (Exception e) {
+
+        }
+        return organization;
     }
 }

@@ -6,7 +6,7 @@ import java.time.LocalDate;
 public class TempdataApplication {
     public static void main(String[] args) {
 
-        organization vet =  new organization("Velalar Educational Trust", "Dindigul, Erode", 1234567890,
+        Orgranaization vet =  new Orgranaization("Velalar Educational Trust", "Dindigul, Erode", 1234567890,
                 "vetias@dindulgmail.com", "www.vetias.com", 123456, LocalDate.of(2025, 07, 14));
 
 
